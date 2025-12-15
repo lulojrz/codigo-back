@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/products")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://codigo-back-production.up.railway.app")
 public class ProductController {
 
     @Autowired
